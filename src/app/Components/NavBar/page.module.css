@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.navBar_container {
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: #00529e;
+
+}
+
+.navBar_list {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  overflow-x:hidden;
+  overflow-y: hidden;
+}
+
+.navBar_fnt {
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  cursor: pointer;
+
+}

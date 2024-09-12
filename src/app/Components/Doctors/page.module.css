@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+.appoitments_container {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  gap:2rem;
+}
+
+.appoitments_card_container {
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
+.appoitments_fnt_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.appoitments_second_container {
+  width: 100%;
+}
+
+.form_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 0.8rem;
+}
+
+.appoitments_fnt {
+  font-family: "Dosis", sans-serif;
+  font-size: 2rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.form_label {
+  font-size: 1rem;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.form_input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+
+.form_btn {
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+
+.card_{
+  width: 100%;
+}
+
+.appoitments_second_container{
+display: flex;
+flex-direction: column;
+justify-content: start;
+width: 100%;
+padding: 1rem;
+border-radius: 8px;
+border: 1px solid white;
+
+
+}
+
+.appoitments_card_container_{
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.appoitments_fnt{
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.appoitments_btn_container{
+ margin-top:1rem;
+ overflow: hidden;
+}
+
+.appoitments_btn{
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.card_{
+ width: 100%;
+ height: 350px;
+ overflow-y: scroll;
+}
